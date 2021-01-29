@@ -135,6 +135,6 @@ void setupRoom2() {
     room2_inTable = createConnector("inTable", "image/탁자 선택.png", room2, 300, 370, room2_table);
     room2_table_toBack = createConnector("toBack", "image/뒤로가기 화살표.png", room2_table, 283, 10, room2);
 
-    room2_sound1 = createSound("audio/모스1.wav");
-    room2_sound2 = createSound("audio/모스2.wav");
+    room2_sound1 = createSound("audio/Morse1.mp3");
+    room2_sound2 = createSound("audio/Morse2.mp3");
 }
