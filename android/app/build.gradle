@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.bosornd.gogh"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+
+        ndk {
+            abiFilters = ["x86", "armeabi-v7a", "arm64-v8a"]
+        }
+    }
+
+    sourceSets.main {
+        assets.srcDir "../../assets"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    debugImplementation fileTree(dir: System.getenv('BANGTAL_HOME') + '/lib/android/debug', include: ['*.aar'])
+    releaseImplementation fileTree(dir: System.getenv('BANGTAL_HOME') + '/lib/android/release', include: ['*.aar'])
+}
