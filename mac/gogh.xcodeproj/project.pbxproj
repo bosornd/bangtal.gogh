@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA385BDF25D7B30D002BEA37 /* Scenes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BD725D7B30D002BEA37 /* Scenes.cpp */; };
+		FA385BE025D7B30D002BEA37 /* Room2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BD825D7B30D002BEA37 /* Room2.cpp */; };
+		FA385BE125D7B30D002BEA37 /* Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BD925D7B30D002BEA37 /* Objects.cpp */; };
+		FA385BE225D7B30D002BEA37 /* Room3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BDA25D7B30D002BEA37 /* Room3.cpp */; };
+		FA385BE325D7B30D002BEA37 /* Callbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BDC25D7B30D002BEA37 /* Callbacks.cpp */; };
+		FA385BE425D7B30D002BEA37 /* Gogh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BDD25D7B30D002BEA37 /* Gogh.cpp */; };
+		FA385BE525D7B30D002BEA37 /* Room1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA385BDE25D7B30D002BEA37 /* Room1.cpp */; };
+		FA385BE925D7B341002BEA37 /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA385BE825D7B341002BEA37 /* libbangtal.dylib */; };
+		FA385BEA25D7B341002BEA37 /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FA385BE825D7B341002BEA37 /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FA385BEC25D7B3DC002BEA37 /* 슬퍼하는 고흐.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8925D7B286002BEA37 /* 슬퍼하는 고흐.png */; };
+		FA385BED25D7B3DC002BEA37 /* 탈출1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8A25D7B286002BEA37 /* 탈출1.png */; };
+		FA385BEE25D7B3DC002BEA37 /* 커튼1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8B25D7B286002BEA37 /* 커튼1.png */; };
+		FA385BEF25D7B3DC002BEA37 /* 창문.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8C25D7B286002BEA37 /* 창문.png */; };
+		FA385BF025D7B3DC002BEA37 /* keypad.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8D25D7B286002BEA37 /* keypad.png */; };
+		FA385BF125D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8E25D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-1.png */; };
+		FA385BF225D7B3DC002BEA37 /* paper.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8F25D7B286002BEA37 /* paper.png */; };
+		FA385BF325D7B3DC002BEA37 /* 앉아있는 고흐.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9025D7B286002BEA37 /* 앉아있는 고흐.png */; };
+		FA385BF425D7B3DC002BEA37 /* 커튼2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9125D7B286002BEA37 /* 커튼2.png */; };
+		FA385BF525D7B3DC002BEA37 /* 총.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9225D7B286002BEA37 /* 총.png */; };
+		FA385BF625D7B3DC002BEA37 /* 고흐의 방 침대.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9325D7B286002BEA37 /* 고흐의 방 침대.png */; };
+		FA385BF725D7B3DC002BEA37 /* 탁자 위.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9425D7B286002BEA37 /* 탁자 위.png */; };
+		FA385BF825D7B3DC002BEA37 /* 커튼3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9525D7B286002BEA37 /* 커튼3.png */; };
+		FA385BF925D7B3DC002BEA37 /* 편지2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9625D7B286002BEA37 /* 편지2.png */; };
+		FA385BFA25D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9725D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-2.png */; };
+		FA385BFB25D7B3DC002BEA37 /* 뒤로가기 화살표.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9825D7B286002BEA37 /* 뒤로가기 화살표.png */; };
+		FA385BFC25D7B3DC002BEA37 /* roll paper.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9925D7B286002BEA37 /* roll paper.png */; };
+		FA385BFD25D7B3DC002BEA37 /* roll paper2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9A25D7B286002BEA37 /* roll paper2.png */; };
+		FA385BFE25D7B3DC002BEA37 /* 별이 빛나는 밤.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9B25D7B286002BEA37 /* 별이 빛나는 밤.png */; };
+		FA385BFF25D7B3DC002BEA37 /* key.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9C25D7B286002BEA37 /* key.png */; };
+		FA385C0025D7B3DC002BEA37 /* 비밀상자.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9D25D7B286002BEA37 /* 비밀상자.png */; };
+		FA385C0125D7B3DC002BEA37 /* 생레미 앞편.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9E25D7B286002BEA37 /* 생레미 앞편.png */; };
+		FA385C0225D7B3DC002BEA37 /* 붓꽃.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B9F25D7B286002BEA37 /* 붓꽃.png */; };
+		FA385C0325D7B3DC002BEA37 /* keypad2-sw.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA025D7B286002BEA37 /* keypad2-sw.png */; };
+		FA385C0425D7B3DC002BEA37 /* 액자 선택.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA125D7B286002BEA37 /* 액자 선택.png */; };
+		FA385C0525D7B3DC002BEA37 /* 떨어진 액자.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA225D7B286002BEA37 /* 떨어진 액자.png */; };
+		FA385C0625D7B3DC002BEA37 /* 총알.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA325D7B286002BEA37 /* 총알.png */; };
+		FA385C0725D7B3DC002BEA37 /* 선택창.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA425D7B286002BEA37 /* 선택창.png */; };
+		FA385C0825D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA525D7B286002BEA37 /* 귀에 붕대를 감은 자화상.png */; };
+		FA385C0925D7B3DC002BEA37 /* 해바라기.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA625D7B286002BEA37 /* 해바라기.png */; };
+		FA385C0A25D7B3DC002BEA37 /* 별이 빛나는 밤-2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA725D7B286002BEA37 /* 별이 빛나는 밤-2.png */; };
+		FA385C0B25D7B3DC002BEA37 /* 연도.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA825D7B286002BEA37 /* 연도.png */; };
+		FA385C0C25D7B3DC002BEA37 /* 생레미 창문.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BA925D7B286002BEA37 /* 생레미 창문.png */; };
+		FA385C0D25D7B3DC002BEA37 /* 그림의 방.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAA25D7B286002BEA37 /* 그림의 방.png */; };
+		FA385C0E25D7B3DC002BEA37 /* keypad2-se.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAB25D7B286002BEA37 /* keypad2-se.png */; };
+		FA385C0F25D7B3DC002BEA37 /* 생레미 탁자.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAC25D7B286002BEA37 /* 생레미 탁자.png */; };
+		FA385C1025D7B3DC002BEA37 /* Box(Opened)-sw.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAD25D7B286002BEA37 /* Box(Opened)-sw.png */; };
+		FA385C1125D7B3DC002BEA37 /* 별이 빛나는 밤-1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAE25D7B286002BEA37 /* 별이 빛나는 밤-1.png */; };
+		FA385C1225D7B3DC002BEA37 /* 고흐의 방 전체.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BAF25D7B286002BEA37 /* 고흐의 방 전체.png */; };
+		FA385C1325D7B3DC002BEA37 /* 쓰러진 고흐.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB025D7B286002BEA37 /* 쓰러진 고흐.png */; };
+		FA385C1425D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB125D7B286002BEA37 /* 귀에 붕대를 감은 자화상-2.png */; };
+		FA385C1525D7B3DC002BEA37 /* 아를의 창문.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB225D7B286002BEA37 /* 아를의 창문.png */; };
+		FA385C1625D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB325D7B286002BEA37 /* 귀에 붕대를 감은 자화상-3.png */; };
+		FA385C1725D7B3DC002BEA37 /* 고흐의 방 액자.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB425D7B286002BEA37 /* 고흐의 방 액자.png */; };
+		FA385C1825D7B3DC002BEA37 /* 아를의 풍경.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB525D7B286002BEA37 /* 아를의 풍경.png */; };
+		FA385C1925D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB625D7B286002BEA37 /* 귀에 붕대를 감은 자화상-1.png */; };
+		FA385C1A25D7B3DC002BEA37 /* 오른쪽 화살표.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB725D7B286002BEA37 /* 오른쪽 화살표.png */; };
+		FA385C1B25D7B3DC002BEA37 /* keypad-se.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB825D7B286002BEA37 /* keypad-se.png */; };
+		FA385C1C25D7B3DC002BEA37 /* 탁자 선택.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BB925D7B286002BEA37 /* 탁자 선택.png */; };
+		FA385C1D25D7B3DC002BEA37 /* 별이 빛나는 밤 글씨.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBA25D7B286002BEA37 /* 별이 빛나는 밤 글씨.png */; };
+		FA385C1E25D7B3DC002BEA37 /* 왼쪽 화살표.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBB25D7B286002BEA37 /* 왼쪽 화살표.png */; };
+		FA385C1F25D7B3DC002BEA37 /* 모스 부호.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBC25D7B286002BEA37 /* 모스 부호.png */; };
+		FA385C2025D7B3DC002BEA37 /* 서랍장 선택.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBD25D7B286002BEA37 /* 서랍장 선택.png */; };
+		FA385C2125D7B3DC002BEA37 /* 복도2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBE25D7B286002BEA37 /* 복도2.png */; };
+		FA385C2225D7B3DC002BEA37 /* 고흐의 방 탁자.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BBF25D7B286002BEA37 /* 고흐의 방 탁자.png */; };
+		FA385C2325D7B3DC002BEA37 /* 장전된 총.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC025D7B286002BEA37 /* 장전된 총.png */; };
+		FA385C2425D7B3DC002BEA37 /* 탈출의 문.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC125D7B286002BEA37 /* 탈출의 문.png */; };
+		FA385C2525D7B3DC002BEA37 /* 총을 든 고흐.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC225D7B286002BEA37 /* 총을 든 고흐.png */; };
+		FA385C2625D7B3DC002BEA37 /* 복도1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC325D7B286002BEA37 /* 복도1.png */; };
+		FA385C2725D7B3DC002BEA37 /* 문.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC425D7B286002BEA37 /* 문.png */; };
+		FA385C2825D7B3DC002BEA37 /* 연도 확대.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC525D7B286002BEA37 /* 연도 확대.png */; };
+		FA385C2925D7B3DC002BEA37 /* 문2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC625D7B286002BEA37 /* 문2.png */; };
+		FA385C2A25D7B3DC002BEA37 /* Box(Closed)-sw.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC725D7B286002BEA37 /* Box(Closed)-sw.png */; };
+		FA385C2B25D7B3DC002BEA37 /* 고흐의 방 물병.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC825D7B286002BEA37 /* 고흐의 방 물병.png */; };
+		FA385C2C25D7B3DC002BEA37 /* 서랍.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BC925D7B286002BEA37 /* 서랍.png */; };
+		FA385C2D25D7B3DC002BEA37 /* 비밀상자-1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCA25D7B286002BEA37 /* 비밀상자-1.png */; };
+		FA385C2E25D7B3DC002BEA37 /* 탁자 위2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCB25D7B286002BEA37 /* 탁자 위2.png */; };
+		FA385C2F25D7B3DC002BEA37 /* 거울.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCC25D7B286002BEA37 /* 거울.png */; };
+		FA385C3025D7B3DC002BEA37 /* 문4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCD25D7B286002BEA37 /* 문4.png */; };
+		FA385C3125D7B3DC002BEA37 /* 편지.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCE25D7B286002BEA37 /* 편지.png */; };
+		FA385C3225D7B3DC002BEA37 /* 유리조각.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BCF25D7B286002BEA37 /* 유리조각.png */; };
+		FA385C3325D7B3DC002BEA37 /* 생레미 뒷편.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD025D7B286002BEA37 /* 생레미 뒷편.png */; };
+		FA385C3425D7B3DC002BEA37 /* 칼.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD125D7B286002BEA37 /* 칼.png */; };
+		FA385C3525D7B3DC002BEA37 /* 찢어진 가죽.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD225D7B286002BEA37 /* 찢어진 가죽.png */; };
+		FA385C3625D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD325D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상.png */; };
+		FA385C3725D7B3DC002BEA37 /* 앞으로 화살표.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD425D7B286002BEA37 /* 앞으로 화살표.png */; };
+		FA385C3825D7B3DC002BEA37 /* 말하는 고흐.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385BD525D7B286002BEA37 /* 말하는 고흐.png */; };
+		FA385C3A25D7B3EE002BEA37 /* Morse2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8625D7B286002BEA37 /* Morse2.mp3 */; };
+		FA385C3B25D7B3EE002BEA37 /* Morse1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA385B8725D7B286002BEA37 /* Morse1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA385B6625D7B20D002BEA37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = image;
+			dstSubfolderSpec = 7;
+			files = (
+				FA385BEC25D7B3DC002BEA37 /* 슬퍼하는 고흐.png in CopyFiles */,
+				FA385BED25D7B3DC002BEA37 /* 탈출1.png in CopyFiles */,
+				FA385BEE25D7B3DC002BEA37 /* 커튼1.png in CopyFiles */,
+				FA385BEF25D7B3DC002BEA37 /* 창문.png in CopyFiles */,
+				FA385BF025D7B3DC002BEA37 /* keypad.png in CopyFiles */,
+				FA385BF125D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-1.png in CopyFiles */,
+				FA385BF225D7B3DC002BEA37 /* paper.png in CopyFiles */,
+				FA385BF325D7B3DC002BEA37 /* 앉아있는 고흐.png in CopyFiles */,
+				FA385BF425D7B3DC002BEA37 /* 커튼2.png in CopyFiles */,
+				FA385BF525D7B3DC002BEA37 /* 총.png in CopyFiles */,
+				FA385BF625D7B3DC002BEA37 /* 고흐의 방 침대.png in CopyFiles */,
+				FA385BF725D7B3DC002BEA37 /* 탁자 위.png in CopyFiles */,
+				FA385BF825D7B3DC002BEA37 /* 커튼3.png in CopyFiles */,
+				FA385BF925D7B3DC002BEA37 /* 편지2.png in CopyFiles */,
+				FA385BFA25D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-2.png in CopyFiles */,
+				FA385BFB25D7B3DC002BEA37 /* 뒤로가기 화살표.png in CopyFiles */,
+				FA385BFC25D7B3DC002BEA37 /* roll paper.png in CopyFiles */,
+				FA385BFD25D7B3DC002BEA37 /* roll paper2.png in CopyFiles */,
+				FA385BFE25D7B3DC002BEA37 /* 별이 빛나는 밤.png in CopyFiles */,
+				FA385BFF25D7B3DC002BEA37 /* key.png in CopyFiles */,
+				FA385C0025D7B3DC002BEA37 /* 비밀상자.png in CopyFiles */,
+				FA385C0125D7B3DC002BEA37 /* 생레미 앞편.png in CopyFiles */,
+				FA385C0225D7B3DC002BEA37 /* 붓꽃.png in CopyFiles */,
+				FA385C0325D7B3DC002BEA37 /* keypad2-sw.png in CopyFiles */,
+				FA385C0425D7B3DC002BEA37 /* 액자 선택.png in CopyFiles */,
+				FA385C0525D7B3DC002BEA37 /* 떨어진 액자.png in CopyFiles */,
+				FA385C0625D7B3DC002BEA37 /* 총알.png in CopyFiles */,
+				FA385C0725D7B3DC002BEA37 /* 선택창.png in CopyFiles */,
+				FA385C0825D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상.png in CopyFiles */,
+				FA385C0925D7B3DC002BEA37 /* 해바라기.png in CopyFiles */,
+				FA385C0A25D7B3DC002BEA37 /* 별이 빛나는 밤-2.png in CopyFiles */,
+				FA385C0B25D7B3DC002BEA37 /* 연도.png in CopyFiles */,
+				FA385C0C25D7B3DC002BEA37 /* 생레미 창문.png in CopyFiles */,
+				FA385C0D25D7B3DC002BEA37 /* 그림의 방.png in CopyFiles */,
+				FA385C0E25D7B3DC002BEA37 /* keypad2-se.png in CopyFiles */,
+				FA385C0F25D7B3DC002BEA37 /* 생레미 탁자.png in CopyFiles */,
+				FA385C1025D7B3DC002BEA37 /* Box(Opened)-sw.png in CopyFiles */,
+				FA385C1125D7B3DC002BEA37 /* 별이 빛나는 밤-1.png in CopyFiles */,
+				FA385C1225D7B3DC002BEA37 /* 고흐의 방 전체.png in CopyFiles */,
+				FA385C1325D7B3DC002BEA37 /* 쓰러진 고흐.png in CopyFiles */,
+				FA385C1425D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-2.png in CopyFiles */,
+				FA385C1525D7B3DC002BEA37 /* 아를의 창문.png in CopyFiles */,
+				FA385C1625D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-3.png in CopyFiles */,
+				FA385C1725D7B3DC002BEA37 /* 고흐의 방 액자.png in CopyFiles */,
+				FA385C1825D7B3DC002BEA37 /* 아를의 풍경.png in CopyFiles */,
+				FA385C1925D7B3DC002BEA37 /* 귀에 붕대를 감은 자화상-1.png in CopyFiles */,
+				FA385C1A25D7B3DC002BEA37 /* 오른쪽 화살표.png in CopyFiles */,
+				FA385C1B25D7B3DC002BEA37 /* keypad-se.png in CopyFiles */,
+				FA385C1C25D7B3DC002BEA37 /* 탁자 선택.png in CopyFiles */,
+				FA385C1D25D7B3DC002BEA37 /* 별이 빛나는 밤 글씨.png in CopyFiles */,
+				FA385C1E25D7B3DC002BEA37 /* 왼쪽 화살표.png in CopyFiles */,
+				FA385C1F25D7B3DC002BEA37 /* 모스 부호.png in CopyFiles */,
+				FA385C2025D7B3DC002BEA37 /* 서랍장 선택.png in CopyFiles */,
+				FA385C2125D7B3DC002BEA37 /* 복도2.png in CopyFiles */,
+				FA385C2225D7B3DC002BEA37 /* 고흐의 방 탁자.png in CopyFiles */,
+				FA385C2325D7B3DC002BEA37 /* 장전된 총.png in CopyFiles */,
+				FA385C2425D7B3DC002BEA37 /* 탈출의 문.png in CopyFiles */,
+				FA385C2525D7B3DC002BEA37 /* 총을 든 고흐.png in CopyFiles */,
+				FA385C2625D7B3DC002BEA37 /* 복도1.png in CopyFiles */,
+				FA385C2725D7B3DC002BEA37 /* 문.png in CopyFiles */,
+				FA385C2825D7B3DC002BEA37 /* 연도 확대.png in CopyFiles */,
+				FA385C2925D7B3DC002BEA37 /* 문2.png in CopyFiles */,
+				FA385C2A25D7B3DC002BEA37 /* Box(Closed)-sw.png in CopyFiles */,
+				FA385C2B25D7B3DC002BEA37 /* 고흐의 방 물병.png in CopyFiles */,
+				FA385C2C25D7B3DC002BEA37 /* 서랍.png in CopyFiles */,
+				FA385C2D25D7B3DC002BEA37 /* 비밀상자-1.png in CopyFiles */,
+				FA385C2E25D7B3DC002BEA37 /* 탁자 위2.png in CopyFiles */,
+				FA385C2F25D7B3DC002BEA37 /* 거울.png in CopyFiles */,
+				FA385C3025D7B3DC002BEA37 /* 문4.png in CopyFiles */,
+				FA385C3125D7B3DC002BEA37 /* 편지.png in CopyFiles */,
+				FA385C3225D7B3DC002BEA37 /* 유리조각.png in CopyFiles */,
+				FA385C3325D7B3DC002BEA37 /* 생레미 뒷편.png in CopyFiles */,
+				FA385C3425D7B3DC002BEA37 /* 칼.png in CopyFiles */,
+				FA385C3525D7B3DC002BEA37 /* 찢어진 가죽.png in CopyFiles */,
+				FA385C3625D7B3DC002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상.png in CopyFiles */,
+				FA385C3725D7B3DC002BEA37 /* 앞으로 화살표.png in CopyFiles */,
+				FA385C3825D7B3DC002BEA37 /* 말하는 고흐.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA385BEB25D7B341002BEA37 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA385BEA25D7B341002BEA37 /* libbangtal.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA385C3925D7B3E5002BEA37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = audio;
+			dstSubfolderSpec = 7;
+			files = (
+				FA385C3A25D7B3EE002BEA37 /* Morse2.mp3 in CopyFiles */,
+				FA385C3B25D7B3EE002BEA37 /* Morse1.mp3 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA385B6825D7B20D002BEA37 /* gogh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gogh; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA385B8625D7B286002BEA37 /* Morse2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morse2.mp3; sourceTree = "<group>"; };
+		FA385B8725D7B286002BEA37 /* Morse1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morse1.mp3; sourceTree = "<group>"; };
+		FA385B8925D7B286002BEA37 /* 슬퍼하는 고흐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "슬퍼하는 고흐.png"; sourceTree = "<group>"; };
+		FA385B8A25D7B286002BEA37 /* 탈출1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "탈출1.png"; sourceTree = "<group>"; };
+		FA385B8B25D7B286002BEA37 /* 커튼1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "커튼1.png"; sourceTree = "<group>"; };
+		FA385B8C25D7B286002BEA37 /* 창문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "창문.png"; sourceTree = "<group>"; };
+		FA385B8D25D7B286002BEA37 /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		FA385B8E25D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "파이프를 물고 귀에 붕대를 한 자화상-1.png"; sourceTree = "<group>"; };
+		FA385B8F25D7B286002BEA37 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		FA385B9025D7B286002BEA37 /* 앉아있는 고흐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "앉아있는 고흐.png"; sourceTree = "<group>"; };
+		FA385B9125D7B286002BEA37 /* 커튼2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "커튼2.png"; sourceTree = "<group>"; };
+		FA385B9225D7B286002BEA37 /* 총.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "총.png"; sourceTree = "<group>"; };
+		FA385B9325D7B286002BEA37 /* 고흐의 방 침대.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고흐의 방 침대.png"; sourceTree = "<group>"; };
+		FA385B9425D7B286002BEA37 /* 탁자 위.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "탁자 위.png"; sourceTree = "<group>"; };
+		FA385B9525D7B286002BEA37 /* 커튼3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "커튼3.png"; sourceTree = "<group>"; };
+		FA385B9625D7B286002BEA37 /* 편지2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "편지2.png"; sourceTree = "<group>"; };
+		FA385B9725D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "파이프를 물고 귀에 붕대를 한 자화상-2.png"; sourceTree = "<group>"; };
+		FA385B9825D7B286002BEA37 /* 뒤로가기 화살표.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "뒤로가기 화살표.png"; sourceTree = "<group>"; };
+		FA385B9925D7B286002BEA37 /* roll paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roll paper.png"; sourceTree = "<group>"; };
+		FA385B9A25D7B286002BEA37 /* roll paper2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roll paper2.png"; sourceTree = "<group>"; };
+		FA385B9B25D7B286002BEA37 /* 별이 빛나는 밤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "별이 빛나는 밤.png"; sourceTree = "<group>"; };
+		FA385B9C25D7B286002BEA37 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		FA385B9D25D7B286002BEA37 /* 비밀상자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "비밀상자.png"; sourceTree = "<group>"; };
+		FA385B9E25D7B286002BEA37 /* 생레미 앞편.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "생레미 앞편.png"; sourceTree = "<group>"; };
+		FA385B9F25D7B286002BEA37 /* 붓꽃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "붓꽃.png"; sourceTree = "<group>"; };
+		FA385BA025D7B286002BEA37 /* keypad2-sw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad2-sw.png"; sourceTree = "<group>"; };
+		FA385BA125D7B286002BEA37 /* 액자 선택.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "액자 선택.png"; sourceTree = "<group>"; };
+		FA385BA225D7B286002BEA37 /* 떨어진 액자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "떨어진 액자.png"; sourceTree = "<group>"; };
+		FA385BA325D7B286002BEA37 /* 총알.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "총알.png"; sourceTree = "<group>"; };
+		FA385BA425D7B286002BEA37 /* 선택창.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "선택창.png"; sourceTree = "<group>"; };
+		FA385BA525D7B286002BEA37 /* 귀에 붕대를 감은 자화상.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "귀에 붕대를 감은 자화상.png"; sourceTree = "<group>"; };
+		FA385BA625D7B286002BEA37 /* 해바라기.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "해바라기.png"; sourceTree = "<group>"; };
+		FA385BA725D7B286002BEA37 /* 별이 빛나는 밤-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "별이 빛나는 밤-2.png"; sourceTree = "<group>"; };
+		FA385BA825D7B286002BEA37 /* 연도.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "연도.png"; sourceTree = "<group>"; };
+		FA385BA925D7B286002BEA37 /* 생레미 창문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "생레미 창문.png"; sourceTree = "<group>"; };
+		FA385BAA25D7B286002BEA37 /* 그림의 방.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "그림의 방.png"; sourceTree = "<group>"; };
+		FA385BAB25D7B286002BEA37 /* keypad2-se.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad2-se.png"; sourceTree = "<group>"; };
+		FA385BAC25D7B286002BEA37 /* 생레미 탁자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "생레미 탁자.png"; sourceTree = "<group>"; };
+		FA385BAD25D7B286002BEA37 /* Box(Opened)-sw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box(Opened)-sw.png"; sourceTree = "<group>"; };
+		FA385BAE25D7B286002BEA37 /* 별이 빛나는 밤-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "별이 빛나는 밤-1.png"; sourceTree = "<group>"; };
+		FA385BAF25D7B286002BEA37 /* 고흐의 방 전체.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고흐의 방 전체.png"; sourceTree = "<group>"; };
+		FA385BB025D7B286002BEA37 /* 쓰러진 고흐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "쓰러진 고흐.png"; sourceTree = "<group>"; };
+		FA385BB125D7B286002BEA37 /* 귀에 붕대를 감은 자화상-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "귀에 붕대를 감은 자화상-2.png"; sourceTree = "<group>"; };
+		FA385BB225D7B286002BEA37 /* 아를의 창문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아를의 창문.png"; sourceTree = "<group>"; };
+		FA385BB325D7B286002BEA37 /* 귀에 붕대를 감은 자화상-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "귀에 붕대를 감은 자화상-3.png"; sourceTree = "<group>"; };
+		FA385BB425D7B286002BEA37 /* 고흐의 방 액자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고흐의 방 액자.png"; sourceTree = "<group>"; };
+		FA385BB525D7B286002BEA37 /* 아를의 풍경.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아를의 풍경.png"; sourceTree = "<group>"; };
+		FA385BB625D7B286002BEA37 /* 귀에 붕대를 감은 자화상-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "귀에 붕대를 감은 자화상-1.png"; sourceTree = "<group>"; };
+		FA385BB725D7B286002BEA37 /* 오른쪽 화살표.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "오른쪽 화살표.png"; sourceTree = "<group>"; };
+		FA385BB825D7B286002BEA37 /* keypad-se.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-se.png"; sourceTree = "<group>"; };
+		FA385BB925D7B286002BEA37 /* 탁자 선택.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "탁자 선택.png"; sourceTree = "<group>"; };
+		FA385BBA25D7B286002BEA37 /* 별이 빛나는 밤 글씨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "별이 빛나는 밤 글씨.png"; sourceTree = "<group>"; };
+		FA385BBB25D7B286002BEA37 /* 왼쪽 화살표.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "왼쪽 화살표.png"; sourceTree = "<group>"; };
+		FA385BBC25D7B286002BEA37 /* 모스 부호.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "모스 부호.png"; sourceTree = "<group>"; };
+		FA385BBD25D7B286002BEA37 /* 서랍장 선택.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "서랍장 선택.png"; sourceTree = "<group>"; };
+		FA385BBE25D7B286002BEA37 /* 복도2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "복도2.png"; sourceTree = "<group>"; };
+		FA385BBF25D7B286002BEA37 /* 고흐의 방 탁자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고흐의 방 탁자.png"; sourceTree = "<group>"; };
+		FA385BC025D7B286002BEA37 /* 장전된 총.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "장전된 총.png"; sourceTree = "<group>"; };
+		FA385BC125D7B286002BEA37 /* 탈출의 문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "탈출의 문.png"; sourceTree = "<group>"; };
+		FA385BC225D7B286002BEA37 /* 총을 든 고흐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "총을 든 고흐.png"; sourceTree = "<group>"; };
+		FA385BC325D7B286002BEA37 /* 복도1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "복도1.png"; sourceTree = "<group>"; };
+		FA385BC425D7B286002BEA37 /* 문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문.png"; sourceTree = "<group>"; };
+		FA385BC525D7B286002BEA37 /* 연도 확대.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "연도 확대.png"; sourceTree = "<group>"; };
+		FA385BC625D7B286002BEA37 /* 문2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문2.png"; sourceTree = "<group>"; };
+		FA385BC725D7B286002BEA37 /* Box(Closed)-sw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box(Closed)-sw.png"; sourceTree = "<group>"; };
+		FA385BC825D7B286002BEA37 /* 고흐의 방 물병.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고흐의 방 물병.png"; sourceTree = "<group>"; };
+		FA385BC925D7B286002BEA37 /* 서랍.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "서랍.png"; sourceTree = "<group>"; };
+		FA385BCA25D7B286002BEA37 /* 비밀상자-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "비밀상자-1.png"; sourceTree = "<group>"; };
+		FA385BCB25D7B286002BEA37 /* 탁자 위2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "탁자 위2.png"; sourceTree = "<group>"; };
+		FA385BCC25D7B286002BEA37 /* 거울.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "거울.png"; sourceTree = "<group>"; };
+		FA385BCD25D7B286002BEA37 /* 문4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문4.png"; sourceTree = "<group>"; };
+		FA385BCE25D7B286002BEA37 /* 편지.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "편지.png"; sourceTree = "<group>"; };
+		FA385BCF25D7B286002BEA37 /* 유리조각.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "유리조각.png"; sourceTree = "<group>"; };
+		FA385BD025D7B286002BEA37 /* 생레미 뒷편.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "생레미 뒷편.png"; sourceTree = "<group>"; };
+		FA385BD125D7B286002BEA37 /* 칼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "칼.png"; sourceTree = "<group>"; };
+		FA385BD225D7B286002BEA37 /* 찢어진 가죽.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "찢어진 가죽.png"; sourceTree = "<group>"; };
+		FA385BD325D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "파이프를 물고 귀에 붕대를 한 자화상.png"; sourceTree = "<group>"; };
+		FA385BD425D7B286002BEA37 /* 앞으로 화살표.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "앞으로 화살표.png"; sourceTree = "<group>"; };
+		FA385BD525D7B286002BEA37 /* 말하는 고흐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "말하는 고흐.png"; sourceTree = "<group>"; };
+		FA385BD725D7B30D002BEA37 /* Scenes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scenes.cpp; path = ../../src/Scenes.cpp; sourceTree = "<group>"; };
+		FA385BD825D7B30D002BEA37 /* Room2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Room2.cpp; path = ../../src/Room2.cpp; sourceTree = "<group>"; };
+		FA385BD925D7B30D002BEA37 /* Objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Objects.cpp; path = ../../src/Objects.cpp; sourceTree = "<group>"; };
+		FA385BDA25D7B30D002BEA37 /* Room3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Room3.cpp; path = ../../src/Room3.cpp; sourceTree = "<group>"; };
+		FA385BDB25D7B30D002BEA37 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Objects.h; path = ../../src/Objects.h; sourceTree = "<group>"; };
+		FA385BDC25D7B30D002BEA37 /* Callbacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Callbacks.cpp; path = ../../src/Callbacks.cpp; sourceTree = "<group>"; };
+		FA385BDD25D7B30D002BEA37 /* Gogh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gogh.cpp; path = ../../src/Gogh.cpp; sourceTree = "<group>"; };
+		FA385BDE25D7B30D002BEA37 /* Room1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Room1.cpp; path = ../../src/Room1.cpp; sourceTree = "<group>"; };
+		FA385BE825D7B341002BEA37 /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../../Library/Frameworks/Bangtal/lib/Debug/libbangtal.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA385B6525D7B20D002BEA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA385BE925D7B341002BEA37 /* libbangtal.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA385B5F25D7B20C002BEA37 = {
+			isa = PBXGroup;
+			children = (
+				FA385B8525D7B286002BEA37 /* audio */,
+				FA385B8825D7B286002BEA37 /* image */,
+				FA385B6A25D7B20D002BEA37 /* gogh */,
+				FA385B6925D7B20D002BEA37 /* Products */,
+				FA385BE725D7B341002BEA37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA385B6925D7B20D002BEA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA385B6825D7B20D002BEA37 /* gogh */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA385B6A25D7B20D002BEA37 /* gogh */ = {
+			isa = PBXGroup;
+			children = (
+				FA385BDC25D7B30D002BEA37 /* Callbacks.cpp */,
+				FA385BDD25D7B30D002BEA37 /* Gogh.cpp */,
+				FA385BD925D7B30D002BEA37 /* Objects.cpp */,
+				FA385BDB25D7B30D002BEA37 /* Objects.h */,
+				FA385BDE25D7B30D002BEA37 /* Room1.cpp */,
+				FA385BD825D7B30D002BEA37 /* Room2.cpp */,
+				FA385BDA25D7B30D002BEA37 /* Room3.cpp */,
+				FA385BD725D7B30D002BEA37 /* Scenes.cpp */,
+			);
+			path = gogh;
+			sourceTree = "<group>";
+		};
+		FA385B8525D7B286002BEA37 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				FA385B8625D7B286002BEA37 /* Morse2.mp3 */,
+				FA385B8725D7B286002BEA37 /* Morse1.mp3 */,
+			);
+			name = audio;
+			path = ../assets/audio;
+			sourceTree = "<group>";
+		};
+		FA385B8825D7B286002BEA37 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FA385B8925D7B286002BEA37 /* 슬퍼하는 고흐.png */,
+				FA385B8A25D7B286002BEA37 /* 탈출1.png */,
+				FA385B8B25D7B286002BEA37 /* 커튼1.png */,
+				FA385B8C25D7B286002BEA37 /* 창문.png */,
+				FA385B8D25D7B286002BEA37 /* keypad.png */,
+				FA385B8E25D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-1.png */,
+				FA385B8F25D7B286002BEA37 /* paper.png */,
+				FA385B9025D7B286002BEA37 /* 앉아있는 고흐.png */,
+				FA385B9125D7B286002BEA37 /* 커튼2.png */,
+				FA385B9225D7B286002BEA37 /* 총.png */,
+				FA385B9325D7B286002BEA37 /* 고흐의 방 침대.png */,
+				FA385B9425D7B286002BEA37 /* 탁자 위.png */,
+				FA385B9525D7B286002BEA37 /* 커튼3.png */,
+				FA385B9625D7B286002BEA37 /* 편지2.png */,
+				FA385B9725D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상-2.png */,
+				FA385B9825D7B286002BEA37 /* 뒤로가기 화살표.png */,
+				FA385B9925D7B286002BEA37 /* roll paper.png */,
+				FA385B9A25D7B286002BEA37 /* roll paper2.png */,
+				FA385B9B25D7B286002BEA37 /* 별이 빛나는 밤.png */,
+				FA385B9C25D7B286002BEA37 /* key.png */,
+				FA385B9D25D7B286002BEA37 /* 비밀상자.png */,
+				FA385B9E25D7B286002BEA37 /* 생레미 앞편.png */,
+				FA385B9F25D7B286002BEA37 /* 붓꽃.png */,
+				FA385BA025D7B286002BEA37 /* keypad2-sw.png */,
+				FA385BA125D7B286002BEA37 /* 액자 선택.png */,
+				FA385BA225D7B286002BEA37 /* 떨어진 액자.png */,
+				FA385BA325D7B286002BEA37 /* 총알.png */,
+				FA385BA425D7B286002BEA37 /* 선택창.png */,
+				FA385BA525D7B286002BEA37 /* 귀에 붕대를 감은 자화상.png */,
+				FA385BA625D7B286002BEA37 /* 해바라기.png */,
+				FA385BA725D7B286002BEA37 /* 별이 빛나는 밤-2.png */,
+				FA385BA825D7B286002BEA37 /* 연도.png */,
+				FA385BA925D7B286002BEA37 /* 생레미 창문.png */,
+				FA385BAA25D7B286002BEA37 /* 그림의 방.png */,
+				FA385BAB25D7B286002BEA37 /* keypad2-se.png */,
+				FA385BAC25D7B286002BEA37 /* 생레미 탁자.png */,
+				FA385BAD25D7B286002BEA37 /* Box(Opened)-sw.png */,
+				FA385BAE25D7B286002BEA37 /* 별이 빛나는 밤-1.png */,
+				FA385BAF25D7B286002BEA37 /* 고흐의 방 전체.png */,
+				FA385BB025D7B286002BEA37 /* 쓰러진 고흐.png */,
+				FA385BB125D7B286002BEA37 /* 귀에 붕대를 감은 자화상-2.png */,
+				FA385BB225D7B286002BEA37 /* 아를의 창문.png */,
+				FA385BB325D7B286002BEA37 /* 귀에 붕대를 감은 자화상-3.png */,
+				FA385BB425D7B286002BEA37 /* 고흐의 방 액자.png */,
+				FA385BB525D7B286002BEA37 /* 아를의 풍경.png */,
+				FA385BB625D7B286002BEA37 /* 귀에 붕대를 감은 자화상-1.png */,
+				FA385BB725D7B286002BEA37 /* 오른쪽 화살표.png */,
+				FA385BB825D7B286002BEA37 /* keypad-se.png */,
+				FA385BB925D7B286002BEA37 /* 탁자 선택.png */,
+				FA385BBA25D7B286002BEA37 /* 별이 빛나는 밤 글씨.png */,
+				FA385BBB25D7B286002BEA37 /* 왼쪽 화살표.png */,
+				FA385BBC25D7B286002BEA37 /* 모스 부호.png */,
+				FA385BBD25D7B286002BEA37 /* 서랍장 선택.png */,
+				FA385BBE25D7B286002BEA37 /* 복도2.png */,
+				FA385BBF25D7B286002BEA37 /* 고흐의 방 탁자.png */,
+				FA385BC025D7B286002BEA37 /* 장전된 총.png */,
+				FA385BC125D7B286002BEA37 /* 탈출의 문.png */,
+				FA385BC225D7B286002BEA37 /* 총을 든 고흐.png */,
+				FA385BC325D7B286002BEA37 /* 복도1.png */,
+				FA385BC425D7B286002BEA37 /* 문.png */,
+				FA385BC525D7B286002BEA37 /* 연도 확대.png */,
+				FA385BC625D7B286002BEA37 /* 문2.png */,
+				FA385BC725D7B286002BEA37 /* Box(Closed)-sw.png */,
+				FA385BC825D7B286002BEA37 /* 고흐의 방 물병.png */,
+				FA385BC925D7B286002BEA37 /* 서랍.png */,
+				FA385BCA25D7B286002BEA37 /* 비밀상자-1.png */,
+				FA385BCB25D7B286002BEA37 /* 탁자 위2.png */,
+				FA385BCC25D7B286002BEA37 /* 거울.png */,
+				FA385BCD25D7B286002BEA37 /* 문4.png */,
+				FA385BCE25D7B286002BEA37 /* 편지.png */,
+				FA385BCF25D7B286002BEA37 /* 유리조각.png */,
+				FA385BD025D7B286002BEA37 /* 생레미 뒷편.png */,
+				FA385BD125D7B286002BEA37 /* 칼.png */,
+				FA385BD225D7B286002BEA37 /* 찢어진 가죽.png */,
+				FA385BD325D7B286002BEA37 /* 파이프를 물고 귀에 붕대를 한 자화상.png */,
+				FA385BD425D7B286002BEA37 /* 앞으로 화살표.png */,
+				FA385BD525D7B286002BEA37 /* 말하는 고흐.png */,
+			);
+			name = image;
+			path = ../assets/image;
+			sourceTree = "<group>";
+		};
+		FA385BE725D7B341002BEA37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA385BE825D7B341002BEA37 /* libbangtal.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA385B6725D7B20D002BEA37 /* gogh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA385B6F25D7B20D002BEA37 /* Build configuration list for PBXNativeTarget "gogh" */;
+			buildPhases = (
+				FA385B6425D7B20D002BEA37 /* Sources */,
+				FA385B6525D7B20D002BEA37 /* Frameworks */,
+				FA385B6625D7B20D002BEA37 /* CopyFiles */,
+				FA385BEB25D7B341002BEA37 /* Embed Libraries */,
+				FA385C3925D7B3E5002BEA37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gogh;
+			productName = gogh;
+			productReference = FA385B6825D7B20D002BEA37 /* gogh */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA385B6025D7B20D002BEA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA385B6725D7B20D002BEA37 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FA385B6325D7B20D002BEA37 /* Build configuration list for PBXProject "gogh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA385B5F25D7B20C002BEA37;
+			productRefGroup = FA385B6925D7B20D002BEA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA385B6725D7B20D002BEA37 /* gogh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA385B6425D7B20D002BEA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA385BE425D7B30D002BEA37 /* Gogh.cpp in Sources */,
+				FA385BE325D7B30D002BEA37 /* Callbacks.cpp in Sources */,
+				FA385BE125D7B30D002BEA37 /* Objects.cpp in Sources */,
+				FA385BE525D7B30D002BEA37 /* Room1.cpp in Sources */,
+				FA385BDF25D7B30D002BEA37 /* Scenes.cpp in Sources */,
+				FA385BE225D7B30D002BEA37 /* Room3.cpp in Sources */,
+				FA385BE025D7B30D002BEA37 /* Room2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA385B6D25D7B20D002BEA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA385B6E25D7B20D002BEA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA385B7025D7B20D002BEA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B298A5937T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA385B7125D7B20D002BEA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B298A5937T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Release",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA385B6325D7B20D002BEA37 /* Build configuration list for PBXProject "gogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA385B6D25D7B20D002BEA37 /* Debug */,
+				FA385B6E25D7B20D002BEA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA385B6F25D7B20D002BEA37 /* Build configuration list for PBXNativeTarget "gogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA385B7025D7B20D002BEA37 /* Debug */,
+				FA385B7125D7B20D002BEA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA385B6025D7B20D002BEA37 /* Project object */;
+}
